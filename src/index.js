@@ -22,7 +22,7 @@ function calculateRank(wins, defeats) {
      else if (wins >= 91 && wins <= 100) {
         level = "Lendário";
     }
-     else {(wins > 101) 
+     else {(wins >= 101) 
         level = "Imortal";
     }
 
